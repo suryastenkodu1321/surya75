@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sample Form</title>
+<head>
+<body>
+<h1>sample Form</h1>
+<form action="surya.html"method="post">
+<!-text input-->
+<label for ="name">name:</label>
+<input type="text"id="name"name="name"required><br><br>
+<!--password input-->
+<label for="password">password:</label>
+<input type ="password"id="password"name="password" required><br><br>
+<!--Email input-->
+<label for="email">email:</label>
+<input type="email"id="email"name="email"required><br><br>
+<!--Radio button-->
+<label>gender :</label><br>
+<input type ="radio"id="male"name="gender"value ="male">
+<label for ="male">male</label><br>
+<input type ="radio"id="female"name="gender"value="female">
+<label for ="female">female</label><br>
+<input type ="radio"id="other"name="gender"value="other">
+<label for="other">other</label><br>
+
+<!--select box-->
+<label for ="country">country:</label>
+<select id="country"name="country"required>
+<option vaule ="india">india</option>
+<option value="usa">usa</option>
+<option value="canada">canada</option>
+<option value="uk">uk</option>
+</select><br><br>
+
+<!--file input-->
+<label for ="resume">upload resume:</label>
+<input type ="file"id="resume"name="resume"accept=.pdf,.doc,.docx"><br><br>
+
+
+<!--textarea-->
+<label for ="message">message:</label>
+<textarea id ="message" name ="message" rows="4" cols="50"placeholder="write your message here.."></textarea><br><br>
+<!--checkbox-->
+<input type="checkbox"id="subscribe"name="subscribe">
+<label for="subscribe">subscribe to our new sletter</label><br><br>
+
+<!--submit button-->
+<input type ="submit" value="submit">
+</form>
+</body>
+</html>
